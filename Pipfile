@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "==7.0"
+flask = "==1.1.1"
+itsdangerous = "==1.1.0"
+jinja2 = "==2.11.1"
+markupsafe = "==1.1.1"
+werkzeug = "==1.0.0"
+flask-sqlalchemy = "*"
+flask-login = "*"
+flask-migrate = "*"
+
+[requires]
+python_version = "3.8"
+
+[dev-packages]

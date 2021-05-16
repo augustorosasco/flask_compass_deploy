@@ -13,6 +13,7 @@ werkzeug = "==1.0.0"
 flask-sqlalchemy = "*"
 flask-login = "*"
 flask-migrate = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
